@@ -6,8 +6,8 @@ import { RiComputerFill } from "react-icons/ri";
 
 const Navbar = () => {
   return (
-    <div className="w-2/12 relative mx-auto">
-      <ul className="flex flex-row absolute mt-4 text-xl text-white justify-center gap-9">
+    <div className="w-2/12 relative">
+      <ul className="flex flex-col absolute ml-4 text-xl highet_screen text-white justify-center gap-9">
         <li className="rounded-full p-5 bg-[#1E436F] hover:bg-[#000000]">
           <Link href="#">
             <FaHome />
