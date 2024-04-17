@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 
-interface skills {
+interface Academic {
   subject: string;
   institute: string;
   start?: string;
@@ -8,7 +8,7 @@ interface skills {
   className?: string;
 }
 
-const Skills: FC<skills> = ({ subject, institute, start, end, className }) => {
+const Academic: FC<Academic> = ({ subject, institute, start, end, className }) => {
   return (
     <div className={`flex gap-4 ${className}`}>
       <div className="h-5 w-5 rounded-full mt-[3px] blue_color_background"></div>
@@ -23,4 +23,4 @@ const Skills: FC<skills> = ({ subject, institute, start, end, className }) => {
   );
 };
 
-export default Skills;
+export default Academic;
