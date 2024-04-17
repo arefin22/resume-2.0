@@ -19,7 +19,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Navbar />
-        {children}
+        <div className="flex flex-col items-center justify-between p-2 bg-[#313131]">
+          {children}
+        </div>
       </body>
     </html>
   );

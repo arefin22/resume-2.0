@@ -16,3 +16,15 @@
 .highet_screen {
   height: calc(100vh - 32px);
 }
+
+.aboutSection_Height {
+  height: calc(100vh - 16px);
+}
+
+.blue_color_background {
+  background: #1e436f;
+}
+
+.blue_color_font {
+  color: #1e436f;
+}
